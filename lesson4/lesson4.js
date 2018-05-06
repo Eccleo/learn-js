@@ -1,6 +1,6 @@
-username=prompt('who is there?','');
+var username=prompt('who is there?','');
 if(username == "admin"){
-    pass=prompt('enter password','');
+    var pass=prompt('enter password','');
     if(pass=='black majesty'){
         alert('Welcome');
     }else if(pass==null){
